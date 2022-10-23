@@ -16,7 +16,7 @@ namespace UsernameAndPasswordControlPanel
             string gelenPassword;
             string userName = "rezansenturk";
             string password = "1234";
-        basaDon: Console.Write("Kullanıcı Adı: ");
+            basaDon: Console.Write("Kullanıcı Adı: ");
             gelenUserName = Console.ReadLine();
             Console.Write("Şifre: ");
             gelenPassword = Console.ReadLine();
