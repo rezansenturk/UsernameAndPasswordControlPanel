@@ -22,7 +22,7 @@ namespace UsernameAndPasswordControlPanel
             gelenPassword = Console.ReadLine();
             if (userName == gelenUserName && password == gelenPassword)
             {
-                Console.ForegroundColor = ConsoleColor.Green; //*ForegroundColor: ekrana yazdırılacak kosulun renkli olmasını sağlar                       
+                Console.ForegroundColor = ConsoleColor.Green; //*ForegroundColor: ekrana yazdırılacak yazının renkli olmasını sağlar                       
                 Console.WriteLine("Giriş Başarılı.");
             }
             else
